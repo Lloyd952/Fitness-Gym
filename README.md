@@ -4,17 +4,32 @@
 
 ## Overview
 
-Welcome to the Fitness Gym Web Application! This project serves as a comprehensive platform for fitness enthusiasts to explore available gym classes, learn about membership plans, and connect with the gym staff. Designed with a user-first approach, the application provides an engaging and intuitive experience for visitors to stay informed and take the first steps towards a healthier lifestyle.
+The **Fitness Gym Web Application** is a responsive, front-end website designed for fitness centers to promote their services. Users can explore classes, view membership options, and contact the gym through an interactive and user-friendly interface.
+
+---
 
 ## Purpose
 
-The primary objective of this project is to:
+This application is intended to:
 
-- Simplify the process of discovering fitness classes and their schedules.
-- Offer clear membership plans to cater to different fitness goals.
-- Provide users with an easy way to contact the gym and get their questions answered.
+- Showcase gym services, schedules, and facilities.
+- Provide transparent membership plan options.
+- Simplify communication between potential members and the gym staff.
 
-By addressing these needs, the web application ensures that users can efficiently interact with the gym, discover classes, and make informed decisions about their fitness journey.
+---
+
+## Technologies Used
+
+| Technology     | Purpose                            |
+|----------------|-------------------------------------|
+| HTML5          | Web structure                       |
+| CSS3           | Styling and layout                  |
+| JavaScript     | Interactivity (form validation, nav)|
+| Google Maps API| Embedding gym location              |
+| Font Awesome   | Icons                               |
+| GitHub Pages   | Hosting the website                 |
+
+---
 
 ## Key Features
 
@@ -36,6 +51,60 @@ By addressing these needs, the web application ensures that users can efficientl
 
 - Fully optimized for various devices including desktops, tablets, and mobile phones.
 
+---
+
+
+## 👥 User Stories & Testing
+
+| User Story | Acceptance Criteria | Test Performed | Status |
+|------------|---------------------|----------------|--------|
+| As a user, I want to view available classes | Class list is viewable and understandable | Clicked "Classes" nav, confirmed content layout and descriptions | ✅ Passed |
+| As a prospective member, I want to view membership plans | Pricing or plan info is accessible and readable | Scrolled homepage membership section, verified clarity | ✅ Passed |
+| As a visitor, I want to contact the gym easily | Form is functional and validation blocks empty fields | Tested blank/valid submissions, confirmed alerts | ✅ Passed |
+
+---
+### 📱 Manual Testing
+
+| Functionality         | Test                                | Result  |
+|-----------------------|--------------------------------------|---------|
+| Navigation Links      | Tested all nav links                 | ✅ Pass |
+| Contact Form          | Tried invalid/valid inputs           | ✅ Pass |
+| Layout Responsiveness | Resized browser & used DevTools     | ✅ Pass |
+| Mobile Menu Toggle    | Burger menu opens/closes (partially) | ⚠️ Issue noted |
+
+### 🌐 Browser Compatibility
+
+Tested on latest versions of:
+
+- Chrome ✅
+- Firefox ✅
+- Safari ✅
+- Edge ✅
+
+### 🚀 Performance Testing (Lighthouse)
+
+| Category       | Score |
+|----------------|-------|
+| Performance    | 100%  |
+| Accessibility  | 84%   |
+| Best Practices | 100%  |
+| SEO            | 91%   |
+
+---
+
+## 🔄 Development Lifecycle
+
+| Phase        | Description                                               |
+|--------------|-----------------------------------------------------------|
+| **Planning** | Created user stories, mockups, and defined core pages     |
+| **Design**   | Applied responsive UI/UX design with Flexbox & media queries |
+| **Development** | Built layout, interactivity, and validation logic      |
+| **Testing**  | Ran browser, device, and accessibility checks             |
+| **Deployment** | Deployed on GitHub Pages                                |
+| **Review**   | Fixed bugs, updated README and added documentation        |
+
+---
+
 ## Deployment Procedure
 
 To deploy this web application, follow these steps:
@@ -43,13 +112,14 @@ To deploy this web application, follow these steps:
 ### 1. Clone the Repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Lloyd952/Fitness-Gym.git
 ```
 
 ### 2. Navigate to the Project Directory:
 
 ```bash
-cd fitness-gym-web-app
+cd Fitness-Gym
+open index.html
 ```
 
 ### 3. Open the Project Locally:
