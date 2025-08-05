@@ -65,12 +65,15 @@ This application is intended to:
 ---
 ### 📱 Manual Testing
 
-| Functionality         | Test                                | Result  |
-|-----------------------|--------------------------------------|---------|
-| Navigation Links      | Tested all nav links                 | ✅ Pass |
-| Contact Form          | Tried invalid/valid inputs           | ✅ Pass |
-| Layout Responsiveness | Resized browser & used DevTools     | ✅ Pass |
-| Mobile Menu Toggle    | Burger menu opens/closes (partially) | ⚠️ Issue noted |
+### 📱 Manual Testing
+
+| Functionality         | Test Description                              | Result      | Notes |
+|-----------------------|-----------------------------------------------|-------------|-------|
+| Navigation Links      | All links navigate to correct sections        | ✅ Pass     | Passed |
+| Contact Form          | Inputs accept text but no real validation or submission | ⚠️ Partially Working | Form doesn't submit anywhere (no action) |
+| Layout Responsiveness | Adjusted screen sizes and tested on mobile    | ✅ Pass     | Passed |
+| Mobile Menu Toggle    | Opens on click, but doesn't auto-close on link click | ⚠️ Issue Noted |The menu opens on mobile view, but clicking a nav item doesn’t auto-close the menu. |
+
 
 ### 🌐 Browser Compatibility
 
@@ -133,41 +136,6 @@ open index.html
   2.  Go to **Settings > Pages**.
   3.  Select the branch where the project is stored.
   4.  Click "Save" and the site will be live.
-- **Netlify:**
-  1.  Sign in to Netlify.
-  2.  Drag and drop the project folder or connect it to a Git repository.
-  3.  Click **Deploy Site**.
-- **Vercel:**
-  1.  Install Vercel CLI (`npm install -g vercel`).
-  2.  Run `vercel` in the project folder and follow the instructions.
-
-## Validation Testing
-
-### 1. Manual Testing:
-
-- Verified responsiveness on various screen sizes (mobile, tablet, desktop).
-- Checked all navigation links for proper redirection.
-- Ensured form validation works as expected.
-
-### 2. Browser Compatibility:
-
-- Tested on **Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari**.
-- Ensured styles and functionality remain consistent across browsers.
-
-### 3. Performance Testing:
-
-- Page load speed tested using Google Lighthouse.
-- Optimized images for faster loading.
-
-### 4. Accessibility Testing:
-
-- Checked contrast ratios for readability.
-- Used screen readers to ensure accessibility compliance.
-
-### 5. Known Issues:
-
-- **Google Maps iframe may not load on some networks due to restrictions.**
-- **Mobile menu may require a fix to close after selection on certain screen sizes.**
 
 ## Screenshots
 
@@ -183,46 +151,9 @@ open index.html
 
 ![Contact Page](./screenshots/contact-page.png)
 
-## Code Attribution
-
-### 1. External libraries and tools:
-
-- Font Awesome: Used for social media icons. [Font Awesome](https://fontawesome.com/)
-
-### 2. Code comments in relevant sections:
-
-```html
-<!-- Font Awesome CDN for social icons -->
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-  integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/>
-```
-
-## Target Audience
-
-This web application is targeted at:
-
-- Individuals seeking structured fitness programs.
-- Current gym members looking to explore additional classes.
-- Prospective members interested in membership options.
-
-## User Stories
-
-1. "As a user, I want to view available classes so I can decide which ones fit my schedule."
-2. "As a prospective member, I want to view membership plans so I can choose one that meets my fitness goals."
-3. "As a visitor, I want to contact the gym easily to resolve my inquiries."
-
-## Development Rationale
-
-This project was developed to create an easy-to-navigate, visually appealing platform that bridges the gap between fitness service providers and their clients. By integrating modern web design principles, the application ensures seamless navigation, intuitive UI, and responsive layouts.
-
 ## Credits
 
-- Developer: Lloyd
+- Developer: ![Lloyd](https://github.com/Lloyd952)
 - Icons: [FontAwesome](https://fontawesome.com/)
 - Map Integration: [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started)
 
