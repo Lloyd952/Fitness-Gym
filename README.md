@@ -102,7 +102,7 @@ Tested on latest versions of:
 | **Planning** | Created user stories, mockups, and defined core pages     |
 | **Design**   | Applied responsive UI/UX design with Flexbox & media queries |
 | **Development** | Built layout, interactivity, and validation logic      |
-| **Testing**  | Ran browser, device, and accessibility checks             |
+| **Testing**  | Ran browser and device checks          |
 | **Deployment** | Deployed on GitHub Pages                                |
 | **Review**   | Fixed bugs, updated README and added documentation        |
 
