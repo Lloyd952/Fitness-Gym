@@ -153,7 +153,7 @@ open index.html
 
 ## Credits
 
-- Developer: ![Lloyd](https://github.com/Lloyd952)
+- Developer: .[Lloyd](https://github.com/Lloyd952)
 - Icons: [FontAwesome](https://fontawesome.com/)
 - Map Integration: [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started)
 
