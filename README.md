@@ -63,9 +63,40 @@ This application is intended to:
 | As a visitor, I want to contact the gym easily | Form is functional and validation blocks empty fields | Tested blank/valid submissions, confirmed alerts | ✅ Passed |
 
 ---
-### 📱 Manual Testing
 
-### 📱 Manual Testing
+## Design Overview
+
+### Colors Used
+
+I chose a dark theme with orange accents to create an energetic fitness atmosphere:
+
+- **Main Background**: Dark black (`#111`) for a modern look
+- **Orange Accent**: Bright orange (`#f97316`) for buttons and highlights
+- **Text**: White text on dark backgrounds for easy reading
+- **Cards**: Dark gray (`#222`) for content sections
+
+### Font Choice
+
+- **Arial**: Clean and easy to read font for all text
+- **Different Sizes**: Larger text for headings, smaller for navigation
+
+### Layout Design
+
+- **Responsive**: Website works on desktop, tablet, and mobile phones
+- **Simple Navigation**: Fixed header that stays at the top
+- **Cards**: Rounded corners and hover effects for interactive elements
+- **Sections**: Alternating dark and light backgrounds to separate content
+
+### Why This Design?
+
+- **Orange Color**: Represents energy and motivation - perfect for a gym
+- **Dark Theme**: Looks modern and professional
+- **Simple Layout**: Easy to navigate and find information
+- **Mobile Friendly**: Works well on all devices
+
+---
+
+## 📱 Manual Testing
 
 | Functionality         | Test Description                              | Result      | Notes |
 |-----------------------|-----------------------------------------------|-------------|-------|
@@ -74,8 +105,9 @@ This application is intended to:
 | Layout Responsiveness | Adjusted screen sizes and tested on mobile    | ✅ Pass     | Passed |
 | Mobile Menu Toggle    | Opens on click, but doesn't auto-close on link click | ⚠️ Issue Noted |The menu opens on mobile view, but clicking a nav item doesn’t auto-close the menu. |
 
+---
 
-### 🌐 Browser Compatibility
+## 🌐 Browser Compatibility
 
 Tested on latest versions of:
 
@@ -84,7 +116,9 @@ Tested on latest versions of:
 - Safari ✅
 - Edge ✅
 
-### 🚀 Performance Testing (Lighthouse)
+---
+
+## 🚀 Performance Testing (Lighthouse)
 
 | Category       | Score |
 |----------------|-------|
