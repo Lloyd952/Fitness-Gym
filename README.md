@@ -171,6 +171,8 @@ open index.html
   3.  Select the branch where the project is stored.
   4.  Click "Save" and the site will be live.
 
+---
+
 ## Screenshots
 
 ### Home Page
@@ -185,11 +187,27 @@ open index.html
 
 ![Contact Page](./screenshots/contact-page.png)
 
+
+---
+
+## Wireframes
+
+### Desktop Wireframe
+![Desktop Wireframe](./screenshots/desktopwireframe.png)
+
+### Mobile Wireframe
+![Mobile Wireframe](./screenshots/mobilewireframe.png)
+
+
+---
+
 ## Credits
 
 - Developer: .[Lloyd](https://github.com/Lloyd952)
 - Icons: [FontAwesome](https://fontawesome.com/)
 - Map Integration: [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started)
+
+---
 
 ## License
 
